@@ -1,4 +1,4 @@
-<img src="images/c4logo.png">
+<img src="../images/c4logo.png">
 
 # Application Routing with Ingress Controllers
 As part of this implementation you are going to use Traefik as the ingress controller. Its a fast and lightweight ingress controller and also comes with great documentation and support.

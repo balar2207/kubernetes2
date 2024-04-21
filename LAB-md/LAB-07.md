@@ -1,4 +1,4 @@
-<img src="images/c4logo.png">
+<img src="../images/c4logo.png">
 
 ### Manage your configuration with ConfigMaps
 Configmap is one of the ways to provide configurations to your application

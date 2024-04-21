@@ -1,4 +1,4 @@
-<img src="images/c4logo.png">
+<img src="../images/c4logo.png">
 
 ### Release Strategy with Deployment
 A Deployment provides declarative updates for Pods and ReplicaSets.

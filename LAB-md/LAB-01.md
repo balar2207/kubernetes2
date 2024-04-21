@@ -1,4 +1,4 @@
-<img src="images/c4logo.png">
+<img src="../images/c4logo.png">
 
 **LAB-01**
 =======================================================================================================================================
@@ -82,7 +82,7 @@ insert picture kube-ops-view-port
 http://<NODE_IP>:servie-port/#scale=2.0
 ```
 
-<img src="images/viasualizer.PNG">
+<img src="../images/viasualizer.PNG">
 
 
 

@@ -1,9 +1,9 @@
-<img src="images/c4logo.png">
+<img src="../images/c4logo.png">
 
 ### Load Balancing and Service Discovery
 In this alb you are going to learn how Loadbalancing work and how service discovery work which is an Internal features offered by Kubernetes.
 
-<img src="images/service-discovery.png">
+<img src="../images/service-discovery.png">
 
 ### Publishing external facing app with NodePort
 In Kubernetes you can find 4 types of services which are
