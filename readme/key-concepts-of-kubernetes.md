@@ -178,5 +178,5 @@ kubectl apply -f redis-deploy.yaml
 kubectl describe svc redis
 ```
 ### Configmaps, Storage, Network, RBAC
-### Statefulsets, Crons and Jobs
+### Crons and Jobs
 
