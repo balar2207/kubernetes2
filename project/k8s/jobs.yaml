@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: print-numbers-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: print-numbers-container
+        image: busybox:1.32.0  # Using a simple BusyBox image for this example
+        command: ["/bin/sh", "-c"]
+        args:
+        - for i in $(seq 1 10); do echo $i;sleep 5; done
+      restartPolicy: Never

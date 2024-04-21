@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: print-message-cronjob
+  namespace: default
+spec:
+  schedule: "*/1 * * * *"  # Run every minute
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: print-message-container
+            image: busybox:1.32.0  # Using a simple BusyBox image for this example
+            command: ["/bin/sh", "-c"]
+            args:
+            - echo "This cronjob is running every minute"
+          restartPolicy: OnFailure
